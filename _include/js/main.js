@@ -77,10 +77,10 @@ BRUSHED.slider = function(){
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-											{image : '_include/img/slider-images/image01.jpg', title : '<div class="slide-content">“Атрибут”</div>', thumb : '', url : ''},
-											{image : '_include/img/slider-images/image02.jpg', title : '<div class="slide-content">“Атрибут”</div>', thumb : '', url : ''},
-											{image : '_include/img/slider-images/image03.jpg', title : '<div class="slide-content">“Атрибут”</div>', thumb : '', url : ''},
-											{image : '_include/img/slider-images/image04.jpg', title : '<div class="slide-content">“Атрибут”</div>', thumb : '', url : ''}  
+											{image : 'photos/slider-images/image01.jpg', title : '<div class="slide-content">“Attribute”</div>', thumb : '', url : ''},
+											{image : 'photos/slider-images/image02.jpg', title : '<div class="slide-content">“Attribute”</div>', thumb : '', url : ''},
+											{image : 'photos/slider-images/image03.jpg', title : '<div class="slide-content">“Attribute”</div>', thumb : '', url : ''},
+											{image : 'photos/slider-images/image04.jpg', title : '<div class="slide-content">“Attribute”</div>', thumb : '', url : ''}  
 									],
 									
 		// Theme Options			   
@@ -216,7 +216,7 @@ BRUSHED.contactForm = function(){
 /* ==================================================
    Twitter Feed
 ================================================== */
-
+/*
 BRUSHED.tweetFeed = function(){
 	
 	var valueTop = -64; // Margin Top Value
@@ -244,7 +244,7 @@ BRUSHED.tweetFeed = function(){
 	});
 	
 }
-
+*/
 
 /* ==================================================
    Menu Highlight
@@ -439,7 +439,7 @@ $(document).ready(function(){
 	BRUSHED.filter();
 	BRUSHED.fancyBox();
 	BRUSHED.contactForm();
-	BRUSHED.tweetFeed();
+	//BRUSHED.tweetFeed();
 	BRUSHED.scrollToTop();
 	BRUSHED.utils();
 	BRUSHED.accordion();
